@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 10px;
+}
+#header {
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    padding: 0 80px;
+    border-bottom: 1px solid gray;
+    background-color: #007aff;
+}
+#logo {
+    width: 80px;
+    height: 80px;
+}
+#solicode {
+    width: 946px;
+    height: 100px;
+}
+#Sign_up {
+    display: flex;
+}
